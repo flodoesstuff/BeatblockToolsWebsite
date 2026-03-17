@@ -47,3 +47,7 @@
 .center p {
   text-align: center;
 }
+
+.card h2 {
+  white-space: normal;
+}
