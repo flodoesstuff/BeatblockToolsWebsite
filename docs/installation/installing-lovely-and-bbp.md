@@ -110,5 +110,3 @@ For MacOS:
 ![mods button](assets/mods-button.png)
 
 That's all! You are now ready to download community made mods.
-
-
