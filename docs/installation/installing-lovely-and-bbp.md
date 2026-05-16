@@ -66,7 +66,7 @@ if [ -z "$LUA_CPATH" ]; then
 fi
 export LUA_CPATH="$APPDIR/lib/?.so;$APPDIR/lib/lua/5.1/?.so;$LUA_CPATH"
 
-LD_PRELOAD="$LD_PRELOAD:liblovely.so" "$APPDIR/bin/Beatblock" --mod-dir="~/.local/share/beatblock/Mods" "$@"
+LD_PRELOAD="$LD_PRELOAD:liblovely.so" "$APPDIR/bin/Beatblock" --mod-dir="./../../../../beatblock/Mods" "$@"
 ```
 
 5) Navigate to Beatblock's Steam launch arguments and add `~/.local/share/Steam/steamapps/common/Beatblock/run_lovely_linux.sh %command%`.
